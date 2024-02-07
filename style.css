@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@400;700&family=Poppins:wght@100;300;600&family=Sixtyfour&display=swap");
+
+/*DEFAULT CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 110%;
+  color: rgb(241, 227, 185);
+  opacity: 0.95; /* Fades the background */
+  text-transform: uppercase;
+  background-color: black;
+}
+
+a {
+  font-family: "poppins";
+  text-decoration: none;
+  font-size: 2vh;
+  color: rgb(241, 227, 185);
+}
+
+h5 {
+  font-size: 2vh;
+}
+
+h1 {
+  font-size: 11vw;
+}
+
+p {
+  font-size: 1.5;
+  text-transform: none;
+}
+
+/*-----HERO PAGE LOAD ANIMATION-----*/
+.visual-box {
+  width: fit-content;
+  overflow: hidden;
+}
+
+.visual-box-element {
+  transform: translateY(100%);
+}
+
+/*-----FOLLOW CIRCLE-----*/
+#follow-circle {
+  transition: cubic-bezier(0.19, 1, 0.22, 1) all 0.5s;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 999;
+  background-color: rgb(241, 227, 185);
+  mix-blend-mode: difference;
+}
+
+/*-----HERO CSS-----*/
+#main {
+  width: 100%;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#nav {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#heading {
+  padding-bottom: 40px;
+  margin-top: 80px;
+  line-height: 1;
+}
+#heading h1 {
+  margin-left: 30px;
+}
+
+#heading .second-heading {
+  margin-left: 230px;
+}
+
+.blocktext {
+  width: fit-content;
+}
+
+.blocktext h5 {
+  text-align: right;
+}
+
+#other-headings {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 80px;
+  margin-bottom: 10%;
+  margin-right: 30px;
+}
+
+#hero-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 0 30px;
+}
+
+#hero-footer .skill {
+  height: 10vh;
+  width: auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero-footer .skill i {
+  font-size: 6.5vh;
+}
+
+#hero-footer .skill img {
+  height: 5vh;
+  border-radius: 10px;
+  background-color: rgb(241, 227, 185);
+}
+
+#scroll-icons {
+  font-size: 4vh;
+}
+
+/*-----PROJECTS CSS-----*/
+
+#projects {
+  width: 100%;
+  height: 100vh;
+  padding-top: 200px;
+  padding-left: 30px;
+  opacity: 0.9;
+  padding-right: 15vh;
+}
+
+.element {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9vh;
+  padding-right: 0;
+  border-top: 1px solid;
+  overflow: hidden;
+}
+
+.border-last {
+  border-bottom: 1px solid;
+}
+
+h2 {
+  font-size: 9vh;
+}
+
+#projects img {
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  max-width: 500px;
+  max-height: 400px;
+  border-radius: 20px;
+  z-index: 9;
+  position: absolute;
+}
+
+/*-----ABOUT CSS----*/
+
+#about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  padding-left: 40vh;
+}
+
+#about-image img {
+  height: 30vh;
+  width: 30vh;
+  border-radius: 50%;
+}
+
+#about-text {
+  max-width: 50%;
+  margin-right: 6vh;
+}
+
+#about a {
+  text-transform: none;
+  padding: 0 10px;
+  border: 1px solid;
+  border-radius: 100px;
+}
+
+/*-----OTHER PROJECTS----*/
+
+#small-projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 40px;
+}
+
+#small-projects .project-2 {
+  padding-left: 5%;
+}
+
+#small-projects .project-3 {
+  padding-left: 10%;
+}
+
+#small-projects p {
+  opacity: 0.7;
+  padding-bottom: 5px;
+}
+
+/*-----FOOTER-----*/
+
+#footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px 10px 30px;
+}
+
+#footer-left {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer-right {
+  width: 15%;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-right i {
+  font-size: 30px;
+}
