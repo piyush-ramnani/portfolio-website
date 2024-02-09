@@ -197,6 +197,8 @@ element.addEventListener("mousemove", function (event) {
 ## Remaining challenges
 
 1. Adding small projects
+2. Project description (occupying blank spaces)
+3. Domain hosting
 
 # Deployment on GitHub Pages:
 
