@@ -197,3 +197,16 @@ element.addEventListener("mousemove", function (event) {
 ## Remaining challenges
 
 1. Adding small projects
+
+# Deployment on GitHub Pages:
+
+Following commands will help transfer files to the gh-pages branch as per commits:
+
+```bash
+git checkout main
+git log --oneline --graph
+# Choose desired commit hashes from the log (e.g., 58a34b, c12def)
+git cherry-pick <commit_hash_1> <commit_hash_2> ...
+# Back to gh-pages branch
+git checkout gh-pages
+```

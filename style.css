@@ -154,6 +154,10 @@ p {
   padding-right: 15vh;
 }
 
+#projects .coming-soon {
+  opacity: 0.5;
+}
+
 .element {
   position: relative;
   width: 100%;
@@ -190,6 +194,7 @@ h2 {
 #about {
   width: 100%;
   height: 100vh;
+  margin-top: 200px;
   display: flex;
   align-items: center;
   justify-content: space-around;
